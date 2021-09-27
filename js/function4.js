@@ -1,4 +1,4 @@
 var vid = document.getElementById('v0'); // seleciona o elemento VIDEO
 window.onscroll = function() {
-    vid.currentTime = window.pageYOffset / 5000;
+    vid.currentTime = window.pageYOffset / 200;
 };
