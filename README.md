@@ -1,3 +1,3 @@
 # site-360-prod
 
-[site aqui!](https://github.com/rushmerk/site-360-prod/blob/master/index.html)
+[site aqui!](https://rushmerk.github.io/site-360-prod/)
