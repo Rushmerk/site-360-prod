@@ -35,7 +35,7 @@ window.onload = function() {
         ArrayImg.push(_base + i + ".jpg")
         console.log(ArrayImg.length)
     }
-    // preloadImages(ArrayImg)
+    preloadImages(ArrayImg)
 }
 
 window.onscroll = function() { //tudo começa com o scroll do usuario
