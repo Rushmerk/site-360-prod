@@ -22,9 +22,6 @@ function preloadImages(array) { // não faço IDEIA de como essa função funcio
     }
 }
 
-// preloadImages(["url1.jpg", "url2.jpg", "url3.jpg"]);
-
-
 window.onload = function() {
     console.log("carregou a pagina")
     for (let i = 1; i < quantidade_fotos; i++) {
