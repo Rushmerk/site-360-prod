@@ -1,8 +1,6 @@
 var img = document.createElement("IMG") // pode-se dizer que faz a instancia de uma classe
 quantidade_fotos = 60 // quantidade de fotos dentro da pasta desejada
 
-
-
 window.onscroll = function() { //tudo começa com o scroll do usuario
     movimentoAtual = parseInt(window.scrollY / 100) // Coleta a posição atual do usuario no eixo Y da janela. Esse int representa a foto
     next(movimentoAtual)
@@ -24,7 +22,6 @@ function next(movimentoAtual) { //parametro recebido pela window.onscroll
         case 3:
             base = "img/test0"
             break;
-
         default:
             break;
     }
